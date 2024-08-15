@@ -35,9 +35,23 @@ modules:
       # repo-name: flathub
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
-        # - org.mozilla.firefox
-        # - org.gnome.Loupe
-        # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
+      - ExtensionManager: com.mattjakeman.ExtensionManager
+      - LibreOffice: org.libreoffice.LibreOffice
+      - FontDownloader: org.gustavoperedo.FontDownloader
+      - Flatseal: com.github.tchx84.Flatseal
+      - Celluloid: io.github.celluloid_player.Celluloid
+      - Obsidian: md.obsidian.Obsidian
+      - Studio: io.beekeeperstudio.Studio
+      - Vorta: com.borgbase.Vorta
+      - Slack: com.slack.Slack
+      - Chrome: com.google.Chrome
+      - wezterm: org.wezfurlong.wezterm
+      - Floorp: one.ablaze.floorp
+      - Bitwarden: com.bitwarden.desktop
+      - Todoist: com.todoist.Todoist
+      - Ferdium: org.ferdium.Ferdium
+      - Freetube: io.freetubeapp.FreeTube
+      - Zed: dev.zed.Zed
       # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
       # only normal flatpak applications are (like Floorp Lightning web browser in this example).
       # Installing different branches of the same Flatpak is not supported.
