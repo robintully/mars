@@ -34,6 +34,7 @@ modules:
       - direnv
       - langpacks-en
       - just
+      - swaybg
     remove:
       - firefox
       - firefox-langpacks
@@ -59,7 +60,7 @@ modules:
         - dev.zed.Zed
       remove: null
   - type: chezmoi
-    repository: 'https://github.com/robintully/dotfiles'
+    repository: "https://github.com/robintully/dotfiles"
     all-users: true
     file-conflict-policy: replace
   - type: signing
