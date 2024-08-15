@@ -53,7 +53,6 @@ modules:
       # repo-name: flathub
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
-      - ExtensionManager: com.mattjakeman.ExtensionManager
       - LibreOffice: org.libreoffice.LibreOffice
       - FontDownloader: org.gustavoperedo.FontDownloader
       - Flatseal: com.github.tchx84.Flatseal
