@@ -1,6 +1,6 @@
 name: mars
 description: This is my personal OS image.
-base-image: ghcr.io/wayblue/hyprland-nvidia
+base-image: ghcr.io/wayblueorg/hyprland-nvidia
 image-version: latest
 modules:
   - type: files
@@ -36,6 +36,7 @@ modules:
       - langpacks-en
       - ruff
       - uv
+      - just
     remove:
       - firefox
       - firefox-langpacks
