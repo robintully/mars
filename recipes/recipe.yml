@@ -41,22 +41,22 @@ modules:
     notify: true
     system:
       install:
-        - LibreOffice: org.libreoffice.LibreOffice
-        - FontDownloader: org.gustavoperedo.FontDownloader
-        - Flatseal: com.github.tchx84.Flatseal
-        - Celluloid: io.github.celluloid_player.Celluloid
-        - Obsidian: md.obsidian.Obsidian
-        - Studio: io.beekeeperstudio.Studio
-        - Vorta: com.borgbase.Vorta
-        - Slack: com.slack.Slack
-        - Chrome: com.google.Chrome
-        - wezterm: org.wezfurlong.wezterm
-        - Floorp: one.ablaze.floorp
-        - Bitwarden: com.bitwarden.desktop
-        - Todoist: com.todoist.Todoist
-        - Ferdium: org.ferdium.Ferdium
-        - Freetube: io.freetubeapp.FreeTube
-        - Zed: dev.zed.Zed
+        - org.libreoffice.LibreOffice
+        - org.gustavoperedo.FontDownloader
+        - com.github.tchx84.Flatseal
+        - io.github.celluloid_player.Celluloid
+        - md.obsidian.Obsidian
+        - io.beekeeperstudio.Studio
+        - com.borgbase.Vorta
+        - com.slack.Slack
+        - com.google.Chrome
+        - org.wezfurlong.wezterm
+        - one.ablaze.floorp
+        - com.bitwarden.desktop
+        - com.todoist.Todoist
+        - org.ferdium.Ferdium
+        - io.freetubeapp.FreeTube
+        - dev.zed.Zed
       remove: null
   - type: chezmoi
     repository: 'https://github.com/robintully/dotfiles'
