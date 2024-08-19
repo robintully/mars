@@ -34,8 +34,24 @@ modules:
       - langpacks-en
       - just
       - swaybg
-      - dnf-plugins-core
-      - dnf-plugins-extra
+      - cinnamon
+      - cinnamon-control-center
+      - cinnamon-screensaver
+      - cinnamon-session
+      - cinnamon-settings-daemon
+      - cinnamon-themes
+      - cinnamon-translations
+      - cinnamon-utils
+      - gnome-settings-daemon
+      - gnome-terminal
+      - file-roller
+      - evince
+      - gnome-screenshot
+      - nautilus
+      - dconf-editor
+      - mutter
+      - gnome-control-center
+      - network-manager-applet
     remove:
       - firefox
       - firefox-langpacks
