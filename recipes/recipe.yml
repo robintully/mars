@@ -63,8 +63,8 @@ modules:
     all-users: true
     file-conflict-policy: replace
   - type: script
-    scripts:
-      - cinnamon.sh
+    snippets:
+      - 'dnf group install -y "Cinnamon Desktop"'
   - type: signing
 
   - type: signing
