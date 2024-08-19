@@ -34,6 +34,8 @@ modules:
       - langpacks-en
       - just
       - swaybg
+      - dnf-plugins-core
+      - dnf-plugins-extra
     remove:
       - firefox
       - firefox-langpacks
