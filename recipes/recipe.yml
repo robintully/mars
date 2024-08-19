@@ -41,7 +41,6 @@ modules:
       - cinnamon-settings-daemon
       - cinnamon-themes
       - cinnamon-translations
-      - cinnamon-utils
       - gnome-settings-daemon
       - gnome-terminal
       - file-roller
