@@ -80,9 +80,6 @@ modules:
     repository: "https://github.com/robintully/dotfiles"
     all-users: true
     file-conflict-policy: replace
-  - type: script
-    snippets:
-      - 'dnf group install -y "Cinnamon Desktop"'
   - type: signing
 
   - type: signing
