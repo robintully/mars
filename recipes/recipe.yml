@@ -29,7 +29,6 @@ modules:
       - neovim
       - fontawesome-fonts
       - tumbler
-      - budgie-extras
       - screen
       - direnv
       - langpacks-en
@@ -63,4 +62,9 @@ modules:
     repository: "https://github.com/robintully/dotfiles"
     all-users: true
     file-conflict-policy: replace
+  - type: script
+    scripts:
+      - cinnamon.sh
+  - type: signing
+
   - type: signing
