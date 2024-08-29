@@ -51,10 +51,14 @@ modules:
       - mutter
       - gnome-control-center
       - network-manager-applet
+    remove:
+      - firefox
+      - firefox-langpacks
   - type: default-flatpaks
     notify: true
     system:
       install:
+        - org.mozilla.firefox
         - org.libreoffice.LibreOffice
         - org.gustavoperedo.FontDownloader
         - com.github.tchx84.Flatseal
