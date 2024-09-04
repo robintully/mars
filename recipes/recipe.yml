@@ -1,6 +1,6 @@
 name: mars
 description: This is my personal OS image.
-base-image: ghcr.io/cosmic-kinoite-nvidia #ghcr.io/wayblueorg/hyprland-nvidia
+base-image: ghcr.io/ublue-os/cosmic-kinoite-nvidia #ghcr.io/wayblueorg/hyprland-nvidia
 image-version: latest
 modules:
   - type: files
