@@ -1,7 +1,7 @@
 name: mars
 description: This is my personal OS image.
 base-image: ghcr.io/ublue-os/cosmic-kinoite-nvidia
-image-version: latest
+image-version: latest-amd64
 modules:
   - type: files
     files:
