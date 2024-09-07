@@ -16,9 +16,9 @@ modules:
       # - >-
       #   https://copr.fedorainfracloud.org/coprs/jplie/budgie-extras/repo/fedora-%OS_VERSION%/jplie-budgie-extras-%OS_VERSION%.repo
     install:
-      - micro
-      - starship
-      - fish
+      # - micro
+      # - starship
+      # - fish
       - gh
       - xrandr
       - bottom
