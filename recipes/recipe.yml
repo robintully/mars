@@ -32,7 +32,6 @@ modules:
       - screen
       - direnv
       - langpacks-en
-      - just
       # - swaybg
       # - cinnamon
       # - cinnamon-control-center
@@ -43,17 +42,17 @@ modules:
       # - cinnamon-translations
       # - gnome-settings-daemon
       # - gnome-terminal
-      - file-roller
-      - evince
-      - gnome-screenshot
-      - nautilus
+      # - file-roller
+      # - evince
+      # - gnome-screenshot
+      # - nautilus
       - dconf-editor
-      - mutter
+      # - mutter
       # - gnome-control-center
-      - network-manager-applet
-    remove:
-      - firefox
-      - firefox-langpacks
+      # - network-manager-applet
+    # remove:
+      # - firefox
+      # - firefox-langpacks
   - type: default-flatpaks
     notify: true
     system:
