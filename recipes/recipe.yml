@@ -55,7 +55,9 @@ modules:
       # - firefox-langpacks
   - type: default-flatpaks
     notify: true
-    system:
+    user:
+      repo-name: flathub-user
+      repo-title: "Flathub (User)
       install:
         - org.mozilla.firefox
         - org.libreoffice.LibreOffice
