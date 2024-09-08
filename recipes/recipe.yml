@@ -53,6 +53,10 @@ modules:
     # remove:
       # - firefox
       # - firefox-langpacks
+  - type: chezmoi
+    repository: "https://github.com/robintully/dotfiles"
+    all-users: true
+    file-conflict-policy: replace
   - type: default-flatpaks
     notify: true
     user:
@@ -77,10 +81,4 @@ modules:
         - io.freetubeapp.FreeTube
         - dev.zed.Zed
       remove: null
-  - type: chezmoi
-    repository: "https://github.com/robintully/dotfiles"
-    all-users: true
-    file-conflict-policy: replace
-  - type: signing
-
   - type: signing
