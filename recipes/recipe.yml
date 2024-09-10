@@ -32,6 +32,7 @@ modules:
       - screen
       - direnv
       - langpacks-en
+      - pavucontrol
       # - swaybg
       # - cinnamon
       # - cinnamon-control-center
