@@ -33,6 +33,7 @@ modules:
       - direnv
       - langpacks-en
       - pavucontrol
+      - python3-devel
       # - swaybg
       # - cinnamon
       # - cinnamon-control-center
@@ -79,6 +80,7 @@ modules:
         - com.bitwarden.desktop
         - com.todoist.Todoist
         - org.ferdium.Ferdium
+        - it.mijorus.gearlever
         - io.freetubeapp.FreeTube
         - dev.zed.Zed
       remove: null
