@@ -1,6 +1,6 @@
 name: mars
 description: This is my personal OS image.
-base-image: ghcr.io/ublue-os/bluefin-dx-nvidia
+base-image: ghcr.io/ublue-os/bazzite-nvidia
 image-version: stable
 modules:
   - type: files
@@ -13,6 +13,8 @@ modules:
       #   https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
       - >-
         https://copr.fedorainfracloud.org/coprs/atim/bottom/repo/fedora-%OS_VERSION%/atim-bottom-fedora-%OS_VERSION%.repo
+      - >-
+        https://copr.fedorainfracloud.org/coprs/ryanabx/cosmic-epoch/repo/fedora-%OS_VERSION%/ryanabx-cosmic-epoch-fedora-%OS_VERSION%.repo
       # - >-
       #   https://copr.fedorainfracloud.org/coprs/jplie/budgie-extras/repo/fedora-%OS_VERSION%/jplie-budgie-extras-%OS_VERSION%.repo
     install:
@@ -34,24 +36,8 @@ modules:
       - langpacks-en
       - pavucontrol
       - python3-devel
-      # - swaybg
-      # - cinnamon
-      # - cinnamon-control-center
-      # - cinnamon-screensaver
-      # - cinnamon-session
-      # - cinnamon-settings-daemon
-      # - cinnamon-themes
-      # - cinnamon-translations
-      # - gnome-settings-daemon
-      # - gnome-terminal
-      # - file-roller
-      # - evince
-      # - gnome-screenshot
-      # - nautilus
       - dconf-editor
-      # - mutter
-      # - gnome-control-center
-      # - network-manager-applet
+      - cosmic-desktop
     # remove:
       # - firefox
       # - firefox-langpacks
