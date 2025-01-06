@@ -45,6 +45,10 @@ modules:
     repository: "https://github.com/robintully/dotfiles"
     all-users: true
     file-conflict-policy: replace
+  - type: justfiles
+    validate: true
+    include:
+      - kde.just
   - type: default-flatpaks
     notify: true
     user:
@@ -69,5 +73,7 @@ modules:
         - it.mijorus.gearlever
         - io.freetubeapp.FreeTube
         - dev.zed.Zed
-      remove: null
+        - com.usebruno.Bruno
+        - com.logseq.Logseq
+      remove: []
   - type: signing
