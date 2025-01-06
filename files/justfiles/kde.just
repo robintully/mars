@@ -1,4 +1,4 @@
 # Define a recipe to restart KDE
-restart_kde:
+restart-kde:
     killall plasmashell || true
     kstart plasmashell &> /dev/null &
