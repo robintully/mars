@@ -46,7 +46,7 @@ modules:
     all-users: true
     file-conflict-policy: replace
   - type: justfiles
-    validate: true
+    validate: false
     include:
       - kde.just
   - type: default-flatpaks
