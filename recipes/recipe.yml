@@ -40,7 +40,7 @@ modules:
       - python3-devel
       - dconf-editor
       - cosmic-desktop
-      - wezterm-nightly
+      - wezterm
     # remove:
       # - firefox
       # - firefox-langpacks
