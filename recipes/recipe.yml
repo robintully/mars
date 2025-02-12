@@ -17,6 +17,8 @@ modules:
         https://copr.fedorainfracloud.org/coprs/ryanabx/cosmic-epoch/repo/fedora-%OS_VERSION%/ryanabx-cosmic-epoch-fedora-%OS_VERSION%.repo
       - >-
         https://copr.fedorainfracloud.org/coprs/wezfurlong/wezterm-nightly/repo/fedora-%OS_VERSION%/wezfurlong-wezterm-nightly-fedora-%OS_VERSION%.repo
+      - >-
+        https://copr.fedorainfracloud.org/coprs/sneexy/zen-browser/repo/fedora-%OS_VERSION%/sneexy-zen-browser-%OS_VERSION%.repo
       # - >-
       #   https://copr.fedorainfracloud.org/coprs/jplie/budgie-extras/repo/fedora-%OS_VERSION%/jplie-budgie-extras-%OS_VERSION%.repo
     install:
@@ -41,6 +43,7 @@ modules:
       - dconf-editor
       - cosmic-desktop
       - wezterm
+      - zen-browser
     # remove:
       # - firefox
       # - firefox-langpacks
