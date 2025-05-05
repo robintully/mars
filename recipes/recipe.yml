@@ -8,51 +8,48 @@ modules:
     files:
       - source: system
         destination: /
-  - type: rpm-ostree
+  - type: dnf
     repos:
-      - >-
-        https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
-      - >-
-        https://copr.fedorainfracloud.org/coprs/atim/bottom/repo/fedora-%OS_VERSION%/atim-bottom-fedora-%OS_VERSION%.repo
-      - >-
-        https://copr.fedorainfracloud.org/coprs/ryanabx/cosmic-epoch/repo/fedora-%OS_VERSION%/ryanabx-cosmic-epoch-fedora-%OS_VERSION%.repo
-      - >-
-        https://copr.fedorainfracloud.org/coprs/pgdev/ghostty/repo/fedora-%OS_VERSION%/pgdev-ghostty-fedora-%OS_VERSION%.repo
-      # - >-
-      - >-
-        https://copr.fedorainfracloud.org/coprs/varlad/zellij/repo/fedora-%OS_VERSION%/varlad-zellij-fedora-%OS_VERSION%.repo
-      - >-
-        https://copr.fedorainfracloud.org/coprs/wezfurlong/wezterm-nightly/repo/fedora-%OS_VERSION%/wezfurlong-wezterm-nightly-fedora-%OS_VERSION%.repo
-      # - >-
-      #   https://copr.fedorainfracloud.org/coprs/sneexy/zen-browser/repo/fedora-%OS_VERSION%/sneexy-zen-browser-%OS_VERSION%.repo
-      # - >-
-      #   https://copr.fedorainfracloud.org/coprs/jplie/budgie-extras/repo/fedora-%OS_VERSION%/jplie-budgie-extras-%OS_VERSION%.repo
+      copr:
+        - atim/starship
+        - atim/bottom
+        - ryanabx/cosmic-epoch
+        - pgdev/ghostty
+        - varlad/zellij
+        - wezfurlong/wezterm-nightly
+        # - sneexy/zen-browser
+        # - jplie/budgie-extras
+      files:
+        - windsurf.repo
     install:
-      # - micro
-      - starship
-      - fish
-      - gh
-      - xrandr
-      - bottom
-      - alacritty
-      - ImageMagick
-      - mpv
-      - neovim
-      - fontawesome-fonts
-      - tumbler
-      - screen
-      - direnv
-      - langpacks-en
-      - pavucontrol
-      - python3-devel
-      - dconf-editor
-      - cosmic-desktop
-      - wezterm
-      - ghostty
-      - zellij
+      packages:
+        # - micro
+        - starship
+        # - fish
+        - gh
+        - xrandr
+        - bottom
+        - alacritty
+        - ImageMagick
+        - mpv
+        - neovim
+        - fontawesome-fonts
+        - tumbler
+        - screen
+        - direnv
+        - langpacks-en
+        - pavucontrol
+        - python3-devel
+        - dconf-editor
+        - cosmic-desktop
+        - wezterm
+        - gtk4-layer-shell
+        # - ghostty-git
+        - zellij
     # remove:
-    # - firefox
-    # - firefox-langpacks
+    #   packages:
+    #     - firefox
+    #     - firefox-langpacks
   - type: chezmoi
     repository: "https://github.com/robintully/dotfiles"
     all-users: true
