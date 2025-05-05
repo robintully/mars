@@ -47,7 +47,7 @@ modules:
       - dconf-editor
       - cosmic-desktop
       - wezterm
-      # - ghostty
+      - ghostty
       - zellij
     # remove:
     # - firefox
