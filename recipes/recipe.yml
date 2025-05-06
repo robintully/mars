@@ -9,6 +9,10 @@ modules:
       - source: system
         destination: /
   - type: dnf
+    remove:
+      packages:
+        - fish
+  - type: dnf
     repos:
       copr:
         - atim/starship
