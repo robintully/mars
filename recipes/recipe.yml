@@ -18,6 +18,7 @@ modules:
         - varlad/zellij
         - wezfurlong/wezterm-nightly
         - sneexy/zen-browser
+        - atim/nushell
       files:
         - windsurf.repo
     group-install:
@@ -46,9 +47,10 @@ modules:
         # - cosmic-desktop
         - wezterm
         - windsurf
-        # - ghostty
+        - ghostty
         - zellij
         - zen-browser
+        - nushell
   - type: chezmoi
     repository: "https://github.com/robintully/dotfiles"
     all-users: true
