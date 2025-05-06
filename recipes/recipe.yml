@@ -1,6 +1,6 @@
 name: mars
 description: This is my personal OS image.
-base-image: ghcr.io/ublue-os/bazzite-dx-gnome-nvidia-open
+base-image: ghcr.io/ublue-os/bazzite-dx-nvidia-open
 
 image-version: stable
 modules:
@@ -13,19 +13,20 @@ modules:
       copr:
         - atim/starship
         - atim/bottom
-        - ryanabx/cosmic-epoch
+        - atim/lazygit
         - pgdev/ghostty
         - varlad/zellij
         - wezfurlong/wezterm-nightly
-        # - sneexy/zen-browser
-        # - jplie/budgie-extras
+        - sneexy/zen-browser
       files:
         - windsurf.repo
+    group-install:
+      packages:
+        - cosmic-desktop-environment
     install:
       packages:
-        # - micro
+        - micro
         - starship
-        # - fish
         - gh
         - xrandr
         - bottom
@@ -38,18 +39,16 @@ modules:
         - screen
         - direnv
         - langpacks-en
+        - lazygit
         - pavucontrol
         - python3-devel
         - dconf-editor
-        - cosmic-desktop
+        # - cosmic-desktop
         - wezterm
-        - gtk4-layer-shell
-        # - ghostty-git
+        - windsurf
+        # - ghostty
         - zellij
-    # remove:
-    #   packages:
-    #     - firefox
-    #     - firefox-langpacks
+        - zen-browser
   - type: chezmoi
     repository: "https://github.com/robintully/dotfiles"
     all-users: true
