@@ -1,8 +1,7 @@
 name: mars
 description: This is my personal OS image.
 base-image: ghcr.io/ublue-os/bluefin-dx-nvidia
-
-image-version: stable
+image-version: gts
 modules:
   - type: files
     files:
