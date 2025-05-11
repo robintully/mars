@@ -1,6 +1,6 @@
 name: mars
 description: This is my personal OS image.
-base-image: ghcr.io/ublue-os/bazzite-dx-nvidia-open
+base-image: ghcr.io/ublue-os/bluefin-dx-nvidia
 
 image-version: stable
 modules:
@@ -87,5 +87,6 @@ modules:
         - com.usebruno.Bruno
         - com.logseq.Logseq
         - app.zen_browser.zen
+        - com.vivaldi.Vivaldi
       remove: []
   - type: signing
