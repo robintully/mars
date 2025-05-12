@@ -7,10 +7,10 @@ modules:
     files:
       - source: system
         destination: /
-  - type: dnf
-    remove:
-      packages:
-        - fish
+  # - type: dnf
+  #   remove:
+  #     packages:
+  #       - fish
   - type: dnf
     repos:
       copr:
@@ -33,6 +33,7 @@ modules:
         - starship
         - gh
         - xrandr
+        - fish
         - bottom
         - alacritty
         - ImageMagick
