@@ -30,31 +30,31 @@ modules:
     install:
       packages:
         - micro
-        - starship
-        - gh
-        - xrandr
+        # - starship
+        # - gh
+        # - xrandr
         # - fish
         # - xonsh
-        - bottom
+        # - bottom
         # - alacritty
         # - ImageMagick
         # - mpv
         # - neovim
-        - fontawesome-fonts
+        # - fontawesome-fonts
         # - tumbler
-        - screen
-        - direnv
-        - langpacks-en
-        - lazygit
-        - pavucontrol
+        # - screen
+        # - direnv
+        # - langpacks-en
+        # - lazygit
+        # - pavucontrol
         # - python3-devel
-        - dconf-editor
+        # - dconf-editor
         # - cosmic-desktop
-        - wezterm
-        - windsurf
-        - ghostty
-        - zellij
-        - zen-browser
+        # - wezterm
+        # - windsurf
+        # - ghostty
+        # - zellij
+        # - zen-browser
         # - nushell
   - type: chezmoi
     repository: "https://github.com/robintully/dotfiles"
