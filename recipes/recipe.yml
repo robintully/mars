@@ -22,11 +22,12 @@ modules:
         - wezfurlong/wezterm-nightly
         - sneexy/zen-browser
         - atim/nushell
-      # files:
-      #   - windsurf.repo
+        - ryanabx/cosmic-epoch
+      files:
+        - windsurf.repo
     group-install:
       packages:
-        - cosmic-desktop-environment
+        - xfce-desktop-environment
     install:
       packages:
         - micro
@@ -49,9 +50,9 @@ modules:
         - pavucontrol
         - python3-devel
         - dconf-editor
-        # - cosmic-desktop
-        # - wezterm
-        # - windsurf
+        - cosmic-desktop
+        - wezterm
+        - windsurf
         - ghostty
         - zellij
         # - zen-browser
