@@ -22,38 +22,38 @@ modules:
         - wezfurlong/wezterm-nightly
         - sneexy/zen-browser
         - atim/nushell
-      files:
-        - windsurf.repo
+      # files:
+      #   - windsurf.repo
     group-install:
       packages:
         - cosmic-desktop-environment
     install:
       packages:
         - micro
-        # - starship
-        # - gh
-        # - xrandr
+        - starship
+        - gh
+        - xrandr
         # - fish
-        # - xonsh
-        # - bottom
+        - xonsh
+        - bottom
         # - alacritty
-        # - ImageMagick
-        # - mpv
+        - ImageMagick
+        - mpv
         # - neovim
-        # - fontawesome-fonts
-        # - tumbler
-        # - screen
-        # - direnv
-        # - langpacks-en
-        # - lazygit
-        # - pavucontrol
-        # - python3-devel
-        # - dconf-editor
+        - fontawesome-fonts
+        - tumbler
+        - screen
+        - direnv
+        - langpacks-en
+        - lazygit
+        - pavucontrol
+        - python3-devel
+        - dconf-editor
         # - cosmic-desktop
         # - wezterm
         # - windsurf
-        # - ghostty
-        # - zellij
+        - ghostty
+        - zellij
         # - zen-browser
         # - nushell
   - type: chezmoi
