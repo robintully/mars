@@ -25,9 +25,9 @@ modules:
         - ryanabx/cosmic-epoch
       files:
         - windsurf.repo
-    group-install:
-      packages:
-        - xfce-desktop-environment
+    # group-install:
+    #   packages:
+    #     - xfce-desktop-environment
     install:
       packages:
         - micro
