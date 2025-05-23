@@ -1,7 +1,7 @@
 name: mars
 description: This is my personal OS image.
-base-image: ghcr.io/ublue-os/aurora-dx-nvidia
-image-version: stable
+base-image: ghcr.io/wayblueorg/qtile-nvidia-open
+image-version: latest
 modules:
   - type: files
     files:
@@ -33,7 +33,8 @@ modules:
         - starship
         - gh
         - xrandr
-        - fish
+        # - fish
+        - xonsh
         - bottom
         - alacritty
         - ImageMagick
