@@ -34,20 +34,20 @@ modules:
         - gh
         - xrandr
         # - fish
-        - xonsh
+        # - xonsh
         - bottom
-        - alacritty
-        - ImageMagick
-        - mpv
-        - neovim
+        # - alacritty
+        # - ImageMagick
+        # - mpv
+        # - neovim
         - fontawesome-fonts
-        - tumbler
+        # - tumbler
         - screen
         - direnv
         - langpacks-en
         - lazygit
         - pavucontrol
-        - python3-devel
+        # - python3-devel
         - dconf-editor
         # - cosmic-desktop
         - wezterm
@@ -55,7 +55,7 @@ modules:
         - ghostty
         - zellij
         - zen-browser
-        - nushell
+        # - nushell
   - type: chezmoi
     repository: "https://github.com/robintully/dotfiles"
     all-users: true
