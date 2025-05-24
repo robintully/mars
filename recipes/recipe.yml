@@ -1,16 +1,16 @@
 name: mars
 description: This is my personal OS image.
-base-image: ghcr.io/wayblueorg/qtile-nvidia-open
-image-version: latest
+base-image: ghcr.io/ublue-os/aurora-dx-nvidia
+image-version: stable
 modules:
   - type: files
     files:
       - source: system
         destination: /
-  # - type: dnf
-  #   remove:
-  #     packages:
-  #       - fish
+  - type: dnf
+    remove:
+      packages:
+        - fish
   - type: dnf
     repos:
       copr:
